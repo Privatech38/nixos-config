@@ -81,6 +81,8 @@
     #media-session.enable = true;
   };
 
+  services.blueman.enable = true;
+
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
@@ -109,6 +111,10 @@
     discord
     fastfetch
     spotify
+    # Development 
+    vscode
+    # Gaming stuff
+    lunar-client
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
