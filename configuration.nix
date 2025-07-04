@@ -113,7 +113,12 @@
     fastfetch
     spotify
     # Development 
-    vscode
+    # VS Code
+    (vscode-with-extensions.override {
+      vscodeExtensions = with vscode-extensions; [
+        bbenoist.nix
+      ];
+    })
     # Gaming stuff
     lunar-client
     mangohud
