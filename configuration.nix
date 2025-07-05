@@ -113,12 +113,17 @@
     fastfetch
     spotify
     # Development 
+    jdk
     # VS Code
     (vscode-with-extensions.override {
       vscodeExtensions = with vscode-extensions; [
         bbenoist.nix
       ];
     })
+    # Jetbrains
+    jetbrains.idea-ultimate
+    jetbrains.datagrip
+    jetbrains.webstorm
     # Gaming stuff
     lunar-client
     mangohud
