@@ -143,6 +143,10 @@
     gamescopeSession.enable = true;
   };
 
+  programs.steam.extraCompatPackages = with pkgs; [
+    proton-ge-bin
+  ];
+
   programs.gamemode.enable = true;
 
   # Some programs need SUID wrappers, can be configured further or are
